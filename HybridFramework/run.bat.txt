@@ -1,0 +1,2 @@
+cd C:\Users\TO GOD BE THE GLORY\git\Tyler\HybridFramework
+mvn test
