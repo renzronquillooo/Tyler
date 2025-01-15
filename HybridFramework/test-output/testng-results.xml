@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-12T17:02:20 CST" name="Master Suite" finished-at="2025-01-12T17:02:52 CST" duration-ms="31883">
+  <suite started-at="2025-01-16T00:35:23 CST" name="Master Suite" finished-at="2025-01-16T00:35:51 CST" duration-ms="27640">
     <groups>
       <group name="Master">
-        <method signature="TC001_AccountRegistrationTest.Verify_Registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@443118b0]" name="Verify_Registration" class="testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC002_LoginTest.Verify_Login()[pri:0, instance:testCases.TC002_LoginTest@6b2ea799]" name="Verify_Login" class="testCases.TC002_LoginTest"/>
+        <method signature="TC005_OrderItem.OrderItem()[pri:0, instance:testCases.TC005_OrderItem@639c2c1d]" name="OrderItem" class="testCases.TC005_OrderItem"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC002_LoginTest.Verify_Login()[pri:0, instance:testCases.TC002_LoginTest@6b2ea799]" name="Verify_Login" class="testCases.TC002_LoginTest"/>
+        <method signature="TC005_OrderItem.OrderItem()[pri:0, instance:testCases.TC005_OrderItem@639c2c1d]" name="OrderItem" class="testCases.TC005_OrderItem"/>
       </group> <!-- Sanity -->
-      <group name="Regression">
-        <method signature="TC001_AccountRegistrationTest.Verify_Registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@443118b0]" name="Verify_Registration" class="testCases.TC001_AccountRegistrationTest"/>
-      </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-01-12T17:02:20 CST" name="Test" finished-at="2025-01-12T17:02:52 CST" duration-ms="31883">
-      <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@6b2ea799]" started-at="2025-01-12T17:02:44 CST" name="setup" finished-at="2025-01-12T17:02:47 CST" duration-ms="2726" status="PASS">
+    <test started-at="2025-01-16T00:35:23 CST" name="Test" finished-at="2025-01-16T00:35:51 CST" duration-ms="27640">
+      <class name="testCases.TC005_OrderItem">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_OrderItem@639c2c1d]" started-at="2025-01-16T00:35:23 CST" name="setup" finished-at="2025-01-16T00:35:27 CST" duration-ms="4127" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,41 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Login()[pri:0, instance:testCases.TC002_LoginTest@6b2ea799]" started-at="2025-01-12T17:02:47 CST" name="Verify_Login" finished-at="2025-01-12T17:02:50 CST" duration-ms="3561" status="PASS">
+        <test-method signature="OrderItem()[pri:0, instance:testCases.TC005_OrderItem@639c2c1d]" started-at="2025-01-16T00:35:28 CST" name="OrderItem" finished-at="2025-01-16T00:35:49 CST" duration-ms="21645" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@6b2ea799]" started-at="2025-01-12T17:02:50 CST" name="tearDown" finished-at="2025-01-12T17:02:52 CST" duration-ms="1481" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_LoginTest -->
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@443118b0]" started-at="2025-01-12T17:02:20 CST" name="setup" finished-at="2025-01-12T17:02:36 CST" duration-ms="15677" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@443118b0]" started-at="2025-01-12T17:02:36 CST" name="Verify_Registration" finished-at="2025-01-12T17:02:42 CST" duration-ms="6496" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@443118b0]" started-at="2025-01-12T17:02:42 CST" name="tearDown" finished-at="2025-01-12T17:02:44 CST" duration-ms="1469" status="PASS">
+        </test-method> <!-- OrderItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_OrderItem@639c2c1d]" started-at="2025-01-16T00:35:49 CST" name="tearDown" finished-at="2025-01-16T00:35:51 CST" duration-ms="1375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+      </class> <!-- testCases.TC005_OrderItem -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

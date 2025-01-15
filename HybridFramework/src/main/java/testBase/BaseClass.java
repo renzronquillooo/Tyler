@@ -89,6 +89,7 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get(p.getProperty("appURL1"));
 		driver.manage().window().maximize();
+		
 	}
 	
 	@AfterClass(groups={"Sanity","Regression","Master"})
@@ -122,7 +123,7 @@ public class BaseClass {
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 		
-		String targetFilePath = System.getProperty("user.dir")+"\\screenshots\\"+ tname + "_" + timeStamp;
+		String targetFilePath = System.getProperty("user.dir")+"\\screenshots\\"+ tname + "_" + timeStamp + ".png";
 		File targetFile = new File(targetFilePath);
 		
 		sourceFile.renameTo(targetFile);

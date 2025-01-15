@@ -12,7 +12,9 @@ public class MyAccountPage extends BasePage {
 		super(driver);
 	}
 
-	
+
+//HEADERS
+
 @FindBy(xpath="//h2[normalize-space()='My Account']")
 WebElement myaccountheading;
 

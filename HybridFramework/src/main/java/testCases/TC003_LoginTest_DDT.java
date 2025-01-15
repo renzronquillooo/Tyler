@@ -25,7 +25,7 @@ public class TC003_LoginTest_DDT extends BaseClass {
 		lp.clickLogin();
 		
 		//MyAccount
-		MyAccountPage ma = new MyAccountPage(driver);
+		MyAccountPage  ma = new MyAccountPage(driver);
 		boolean targetmyaccountpage = ma.isMyAccountExist();
 		
 		/* Data is valid - login success - test pass - logout
